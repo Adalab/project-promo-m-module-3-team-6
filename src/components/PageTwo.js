@@ -5,7 +5,6 @@ import Footer from "./Footer";
 
 class PageTwo extends React.Component {
   render() {
-    //Aquí se declaran las constantes(escribimos el valor entre paréntesis)
     return (
       <>
         <Header />
@@ -13,7 +12,6 @@ class PageTwo extends React.Component {
         <Footer />
       </>
     );
-    // Esto es lo que va a pintar
   }
 }
 

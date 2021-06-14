@@ -1,5 +1,3 @@
-// Variarán algunos valores (p.ej.: className, value, etc...) cuando sepamos hacerlo
-
 function Palette(props) {
   return (
     <>

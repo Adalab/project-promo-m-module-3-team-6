@@ -16,18 +16,6 @@ function Main() {
     setImage(image);
   };
 
-  // const handleInputName = (value) => {
-  //   setName(value);
-  // };
-
-  // const handleInputName = (ev) => {
-  //   props.handleInputName(ev.currentTarget.value);
-  // };
-
-  // const handleInputJob = (ev) => {
-  //   props.handleInputJob(ev.currentTarget.value);
-  // };
-
   return (
     <>
       <main className="main">
@@ -42,7 +30,7 @@ function Main() {
         />
         <Form
           palette={palette}
-          onChangePalette={(evt) => setPalette(evt.target.value)}
+          onChangePalette={(ev) => setPalette(ev.target.value)}
           name={name}
           onChangeName={(ev) => setName(ev.currentTarget.value)}
           job={job}

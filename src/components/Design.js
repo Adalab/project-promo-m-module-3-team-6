@@ -1,5 +1,3 @@
-// //Aquí importaríamos Palette.
-
 import Palette from "./Palette";
 
 function Design({ palette, onChangePalette }) {
